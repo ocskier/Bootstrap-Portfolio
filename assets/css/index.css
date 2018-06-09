@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777;
+    background-image: url("../images/hexabump.png");
+}
+
+
+/* general */
+
+.mycontainer {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+h1 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    padding-bottom: 10px;
+    font-size: 36px;
+    margin-bottom: 10px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+}
+
+img {
+    width: 170px;
+}
+
+#whttxt {
+    color: white;
+}
+
+.tab { 
+    display:inline-block; 
+    margin-left: 40px; 
+}
+
+/* Header */
+
+.myname {
+    margin: auto;
+    font-size: 2.00rem;
+}
+
+#myheader {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
+}
+
+.mynavbar {
+    background-color: #4aaaa5;
+    padding: 12px 46px;
+}
+
+.myNav {
+    margin: auto 0;
+}
+
+nav a {
+    font-size: 14px;
+    line-height: 6px;
+    color: #999;
+    border-left: 1px solid #efefef;
+}
+
+nav a:first-child {
+    border-left: none;
+}
+
+.my-footer {
+    text-align: center;
+    clear: both;
+    width: 100%;
+    font-size: 12px;
+    height: 60px;
+    color: #fff;
+    color: #ccc;
+    line-height: 60px;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+}
+
+.my-a {
+    color: #cccccc;
+    font-weight: bolder;
+}
+
+/* Main */
+
+#main-container {
+    padding-top: 130px;
+    min-height: calc(100vh - 70px);
+}
+
+.main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.myspan {
+    margin: 0 auto;
+    font-size: 28px;
+}
+
+/* Portfolio */
+
+.mycard {
+    margin: 10px auto;
+    border: 4px solid #666666;
+    border-radius: 30px;
+}
+
+.mycard img {
+    border-radius: 30px 30px 0 0;
+}
+
+.ctr-txt {
+    text-align: center;
+}
+
+/* Contact */
+
+
+form {
+    padding-bottom: 20px;
+}

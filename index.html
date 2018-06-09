@@ -7,30 +7,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>My Portfolio Bio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/index.css">
 
 </head>
 
 <body>
-        <div class="d-flex justify-content-between my-header">
-                <nav class="navbar navbar-light mynavbar">
-                        <span class="navbar-brand mb-0 h1"><p id="whttxt">Jon Jackson</p></span>
-                </nav>    
-                <nav class="nav myNav">
-                        <a class="nav-link active mya" href="index.html">About</a>
-                        <a class="nav-link mya" href="portfolio.html">Portfolio</a>
-                        <a class="nav-link mya" href="contact.html">Contact</a>
-                </nav>
-        </div>
-
-        <div class="container-width mycontainer">
-                <div class ="row wrapper">  
+    <header id="myheader">
+    <div class="d-flex justify-content-between mycontainer">
+            <nav class="navbar navbar-light mynavbar">
+                <span class="navbar-brand mb-0 h1 myname"><p id="whttxt">Jon Jackson</p></span>
+            </nav>    
+            <nav class="nav myNav">
+                <a class="nav-link active my-a" href="index.html">About</a>
+                <a class="nav-link my-a" href="portfolio.html">Portfolio</a>
+                <a class="nav-link my-a" href="contact.html">Contact</a>
+            </nav>
+    </div>
+    </header>
+    
+    <div id ="main-container" class="mycontainer">
+            <section class ="row main-section">  
                     <div class="col-lg-12">
-                            <h1>About Me</h1>
-                            <hr>
+                        <h1>About Me</h1>
+                        <div class="row">
                             <div class="row">
                                 <div class="col-lg-3">
-                                        <img src ="../Basic-Portfolio/assets/images/mypic.jpg" alt="MyPic" class="img-thumbnail">
+                                    <img src ="assets/images/mypic.jpg" alt="MyPic" class="img-thumbnail">
                                 </div>
                                 <div class="col-lg-9">
                                     <p> Hello! I was born in Louisiana and 
@@ -40,6 +42,10 @@
                                         I then attended graduate school where I obtained a Computer Programming Certificate 
                                         and a Masters in Wood and Paper Science. 
                                     </p>
+                                </div>
+                            </div>
+                            <div class="row">    
+                                <div class="col-lg-12">   
                                     <p><span class ="tab"></span> My family life and personal interests have led me to spend 
                                         the most recent years teaching myself hardware and software fundamentals utilizing                                             
                                         freelance work.  I spent sometime learning coding as well as building, repairing, and 
@@ -47,20 +53,21 @@
                                     </p>
                                     <p><span class ="tab"></span> I am looking to gain full-time employment in software 
                                         development at this juncture using skills learned up to and including the 
-                                       <a href ="https://codingbootcamp.unc.edu/" target="blank">UNC Chapel 
+                                        <a href ="https://codingbootcamp.unc.edu/" target="blank">UNC Chapel 
                                         Hill Coding Bootcamp</a>.   
                                     </p> 
                                 </div>
                             </div>
+                        </div>
                     </div>
-                </div>
-        </div>
+            </section>
+    </div>
 
-        <footer class="footer my-footer">
-            <div class="container">
-                <span>@Copyright </span>
-            </div>
-        </footer>
+    <footer class="footer my-footer">
+        <div class="container">
+            <span>@Copyright </span>
+        </div>
+    </footer>
 
 </body>
 </html>
