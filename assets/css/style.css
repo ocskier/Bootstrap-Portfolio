@@ -44,7 +44,7 @@ img {
     margin-left: 40px; 
 }
 
-/* Header */
+/* Header and Footer */
 
 .myname {
     margin: auto;
@@ -133,6 +133,12 @@ nav a:first-child {
 .ctr-txt {
     text-align: center;
 }
+
+.mycard-a {
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%; width: 100%;
+    }
 
 /* Contact */
 
