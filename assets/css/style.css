@@ -67,18 +67,19 @@ img {
     padding: 12px 46px;
 }
 
-.myNav {
-    margin: auto 0;
-}
-
-nav a {
+ul li {
     font-size: 14px;
     line-height: 6px;
     color: #999;
     border-left: 1px solid #efefef;
 }
 
-nav a:first-child {
+ul li a {
+    color: #cccccc;
+    font-weight: bolder;
+}
+
+ul li:first-child {
     border-left: none;
 }
 
@@ -93,11 +94,6 @@ nav a:first-child {
     line-height: 60px;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
-}
-
-.my-a {
-    color: #cccccc;
-    font-weight: bolder;
 }
 
 /* Main */
