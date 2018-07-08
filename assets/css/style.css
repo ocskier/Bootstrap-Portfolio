@@ -7,7 +7,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777;
-    background-image: url("../images/hexabump.png");
+    background-image: url("../images/grey_wash_wall.png");
 }
 
 
@@ -23,7 +23,7 @@ body {
 h1 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
-    color: #4aaaa5;
+    color: rgb(62, 62, 92);
     padding-bottom: 10px;
     font-size: 36px;
     margin-bottom: 10px;
@@ -63,12 +63,12 @@ img {
   margin: 0 0 30px;
   overflow: auto;
   color: #fff;
-  background: #fff;
+  background: darkgray;
   border-bottom: 2px solid #ccc;
 }
 
 .mynavbar {
-    background-color: #4aaaa5;
+    background-color: rgb(62, 62, 92);
     padding: 12px 46px;
 }
 .navbar-rm {
@@ -92,7 +92,7 @@ ul li:first-child {
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #4aaaa5;
+    color: rgb(62, 62, 92);
 }
 
 .my-footer {
@@ -103,8 +103,8 @@ ul li:first-child {
     color: #fff;
     color: #ccc;
     line-height: 60px;
-    background-color: #666666;
-    border-top: 8px solid #4aaaa5;
+    background-color: darkgray;
+    border-top: 8px solid rgb(62, 62, 92)
 }
 
 /* Main */
